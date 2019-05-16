@@ -1,14 +1,9 @@
 import * as React from "react";
 
-interface Props {
-  /* description of type prop */
+export type TestProps = {
   type: string;
-}
-
-const TestComponent: React.FunctionComponent<Props> = props => {
-  return <h1>{props.type}</h1>;
 };
 
-export default TestComponent;
-
-export { Props };
+export const TestComponent: React.FunctionComponent<TestProps> = props => {
+  return <h1>{props.type}</h1>;
+};
