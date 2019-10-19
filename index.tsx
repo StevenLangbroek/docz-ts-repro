@@ -1,7 +1,7 @@
 import * as React from "react";
 
 interface Props {
-  /* description of type prop */
+  /** description of type prop */
   type: string;
 }
 
