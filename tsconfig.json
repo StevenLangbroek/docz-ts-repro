@@ -15,7 +15,5 @@
     "typeRoots": ["node_modules/@types", "typings"],
     "resolveJsonModule": true,
     "baseUrl": "./"
-  },
-  "include": ["src"],
-  "exclude": ["src/**/*.spec.ts", "src/**/*.spec.tsx"]
+  }
 }
